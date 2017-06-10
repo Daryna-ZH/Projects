@@ -1,18 +1,37 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @Daryna-ZH
+ Watch 1,396
+  Star 24,398
+ Fork 4,974 necolas/normalize.css
+ Code  Issues 6  Pull requests 1  Projects 0  Pulse  Graphs
+Branch: master Find file Copy pathnormalize.css/normalize.css
+1da0911  on 18 Nov 2016
+@JohnAlbin JohnAlbin Place the document heading above the html element's comment. (#639)
+22 contributors @necolas @jonathantneal @battaglr @magnificode @hudochenkov @JohnAlbin @fritx @tjvantoll @tdhooper @slavanga @patrickhlauke @paulradzkov @MoOx @kazssym @vkrol @jeremenichelli @wilddeer @AustinWi @mattbrundage @gouch @kruczekdawid @Calvein
+RawBlameHistory     
+462 lines (366 sloc)  7.86 KB
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: sans-serif; /* 1 */
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
 }
 
 /* Sections
@@ -106,7 +125,17 @@ a {
 }
 
 /**
- * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
@@ -305,11 +334,13 @@ button:-moz-focusring,
 }
 
 /**
- * Correct the padding in Firefox.
+ * Change the border, margin, and padding in all browsers (opinionated).
  */
 
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 /**
@@ -445,3 +476,5 @@ template {
 [hidden] {
   display: none;
 }
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
