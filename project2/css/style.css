@@ -744,3 +744,99 @@ width: 35px;
   }
 }
 
+@media screen and (max-width: 768px) {
+	.company {
+		float: right;
+	}
+	.contact {
+		display: none;
+	}
+	.banner {
+		height: 340px;
+	}
+	#slider {
+      height: 290px;
+	}
+	#prewbutton {
+		display: none;
+	}
+	#nextbutton {
+		display: none;
+	}
+	a.butt {
+		padding: .5em 3em;
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 480px) {
+	header {
+		height: 230px;
+	}
+	.logo {
+		width: 97%;
+	}
+	.company {
+		float: none;
+		width: 100%;
+	}
+	.company h1 {
+		font-size: 1.5em;
+	}
+	.contact {
+		display: block;
+	}
+	.wrap-banner {
+		display: none;
+	}
+	.menu {
+		float: left;
+		position: absolute;
+	}
+	.question {
+		width: 90%;
+	}
+	.question h1 {
+		font-size: 18px;
+		margin-bottom: 0px;
+	}
+	.question input {
+		width: 80%;
+		margin-right: 5px;
+	}
+	.article {
+		margin-left: 2%;
+		width: 95%;
+		margin-bottom: 40px;
+		height: 240px;
+	}
+	.news {
+		overflow: hidden;
+		height: 885px;
+	}
+	.news h1 {
+		font-size: 18px;
+	}
+	.partners {
+		display: none;
+	}
+	footer {
+		height: 350px;
+	}
+	.menu2 {
+		display: none;
+	}
+    .logotype {
+    	width: 60%;
+    }
+    .conta {
+    	width: 80%;
+    	margin-left: 17%;
+    }
+    .form {
+    	display: none;
+    }
+    .contFoot p {
+    	width: 83%;
+    }
+}
+

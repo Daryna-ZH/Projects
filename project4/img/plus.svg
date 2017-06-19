@@ -1,0 +1,22 @@
+<svg width="22" height="22" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>File Add</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3411 456)">
+<g id="File Add">
+<g id="Stroke 496">
+<use xlink:href="#path0_stroke" transform="translate(3418 -445)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 497">
+<use xlink:href="#path1_stroke" transform="translate(3422 -449)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 499">
+<use xlink:href="#path2_stroke" transform="translate(3412 -455)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 -0.5C -0.276142 -0.5 -0.5 -0.276142 -0.5 0C -0.5 0.276142 -0.276142 0.5 0 0.5L 0 -0.5ZM 8 0.5C 8.27614 0.5 8.5 0.276142 8.5 0C 8.5 -0.276142 8.27614 -0.5 8 -0.5L 8 0.5ZM 0 0.5L 8 0.5L 8 -0.5L 0 -0.5L 0 0.5Z"/>
+<path id="path1_stroke" d="M -0.5 8C -0.5 8.27614 -0.276142 8.5 0 8.5C 0.276142 8.5 0.5 8.27614 0.5 8L -0.5 8ZM 0.5 0C 0.5 -0.276142 0.276142 -0.5 0 -0.5C -0.276142 -0.5 -0.5 -0.276142 -0.5 0L 0.5 0ZM 0.5 8L 0.5 0L -0.5 0L -0.5 8L 0.5 8Z"/>
+<path id="path2_stroke" d="M 19.5 10C 19.5 15.2471 15.2471 19.5 10 19.5L 10 20.5C 15.7994 20.5 20.5 15.7994 20.5 10L 19.5 10ZM 10 19.5C 4.75293 19.5 0.5 15.2471 0.5 10L -0.5 10C -0.5 15.7994 4.20064 20.5 10 20.5L 10 19.5ZM 0.5 10C 0.5 4.75293 4.75293 0.5 10 0.5L 10 -0.5C 4.20064 -0.5 -0.5 4.20064 -0.5 10L 0.5 10ZM 10 0.5C 15.2471 0.5 19.5 4.75293 19.5 10L 20.5 10C 20.5 4.20064 15.7994 -0.5 10 -0.5L 10 0.5Z"/>
+</defs>
+</svg>
