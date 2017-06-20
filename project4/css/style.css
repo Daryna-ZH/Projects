@@ -1179,17 +1179,90 @@ a.butt4 {
    	width: 31%;
    }
 
-
-/*   .galleria-container {
-   	width: 395px;
-   	height: 300px;
-   }
-   .galleria-image {
-   	width: 375px;
-   	height: 250px;
-   }*/
 }
 
+@media screen and (max-width: 768px) {
 
+	.logo {
+		width: 16%;
+		margin-left: 45px;
+	}
+	.slogan {
+		display: none;
+	}
+	.number {
+		width: 20%;
+		margin-left: 15px;
+		margin-top: 45px;
+	}
+/*	.number {
+		margin-top: 80px;
+		margin-left: -75px;
+		width: 25%;
+	}*/
+	.logIn {
+		width: 56%;
+	}
+	.menu {
+		height: 45px;
+	}
+	.menu ul {
+		margin-left: -20px;
+		width: 96%;
+	}
+	.menu li {
+		margin-right: 18px;
+		font-size: 14px;
+	}
+	.seach {
+		width: 80%;
+	}
+	.left {
+		width: 57%;
+	}
+	.right {
+		width: 43%;
+	}
+	.price {
+		width: 205px;
+	}
+	.slider {
+		margin-left: -75px;
+	}
+	#galleria img {
+		width: 360px !important;
+	}
+	.but2 {
+		width: 80%;
+	}
+	a.butt2 {
+		padding: .5em 1em;
+
+	}
+	.galleria-image-nav-right {
+	right: 75px !important;
+}
+.galleria-image-nav-left {
+	left: 75px !important;
+}
+.galleria-thumbnails-list {
+    width: 330px;
+}
+.galleria-thumbnails .galleria-image {
+	width: 105px !important;
+}
+.galleria-carousel .galleria-thumbnails-list {
+
+	margin-left: 32px;
+}
+/*	.logIn {
+		margin-top: 30px;
+	}
+	a.butt {
+		float: left;
+		margin-left: -5px;
+		margin-top: -15px;
+	}
+*/}
 
 
